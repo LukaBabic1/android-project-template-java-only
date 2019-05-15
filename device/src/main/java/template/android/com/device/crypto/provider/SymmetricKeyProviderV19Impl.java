@@ -2,7 +2,7 @@ package template.android.com.device.crypto.provider;
 
 import android.content.Context;
 import android.security.KeyPairGeneratorSpec;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.math.BigInteger;
 import java.security.InvalidAlgorithmParameterException;

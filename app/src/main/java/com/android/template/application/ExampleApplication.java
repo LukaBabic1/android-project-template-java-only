@@ -1,7 +1,7 @@
 package com.android.template.application;
 
 import android.content.Context;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 
 import com.android.template.injection.application.ApplicationComponent;
 import com.android.template.injection.factory.ComponentFactory;

@@ -2,7 +2,7 @@ package com.android.template.injection.activity.module;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.inputmethod.InputMethodManager;
 

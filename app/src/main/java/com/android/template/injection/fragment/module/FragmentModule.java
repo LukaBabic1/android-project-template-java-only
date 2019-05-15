@@ -1,6 +1,6 @@
 package com.android.template.injection.fragment.module;
 
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.FragmentManager;
 
 import com.android.template.injection.fragment.DaggerFragment;
 import com.android.template.injection.scope.FragmentScope;

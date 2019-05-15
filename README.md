@@ -16,3 +16,6 @@ This project setup supports both Java and Kotlin. It's planned to crate also Jav
 
 ## Future work
 The intention of this repository is to be regularly updated with newer version of dependencies when they are published and in some cases to introduce new dependency to modules if they are worth adding.
+
+## Readings
+https://developer.android.com/jetpack/androidx/migrate

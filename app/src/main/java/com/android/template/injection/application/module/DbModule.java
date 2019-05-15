@@ -1,6 +1,6 @@
 package com.android.template.injection.application.module;
 
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 import android.content.Context;
 
 import com.android.template.injection.qualifier.ForApplication;

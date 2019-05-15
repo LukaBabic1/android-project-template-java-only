@@ -1,7 +1,7 @@
 package template.android.com.data.dao.database;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 import template.android.com.data.dao.ExampleDao;
 import template.android.com.data.dao.model.ExampleDbModel;

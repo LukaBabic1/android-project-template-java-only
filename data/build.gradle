@@ -33,7 +33,7 @@ android {
             }
         }
 
-        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     buildTypes {
@@ -59,12 +59,12 @@ dependencies {
     // We're putting this to be 'api' because we want 'domain' module to be visible in 'app' module as transitive dependency.
     api project(':domain')
 
-    implementation 'com.android.support:appcompat-v7:' + $supportLibVersion
+    implementation 'androidx.appcompat:appcompat:1.0.2'
 
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:' + $kotlin_version
 
-    api 'android.arch.persistence.room:runtime:1.1.1'
-    kapt 'android.arch.persistence.room:compiler:1.1.1'
+    api 'androidx.room:room-runtime:2.0.0'
+    kapt 'androidx.room:room-compiler:2.0.0'
 
     api 'com.squareup.retrofit2:retrofit:' + $retrofitVersion
     api 'com.squareup.retrofit2:converter-gson:' + $retrofitVersion
@@ -75,7 +75,7 @@ dependencies {
 
     testImplementation 'junit:junit:' + $jUnitVersion
 
-    androidTestImplementation 'com.android.support.test:rules:' + $testRulesVersion
-    androidTestImplementation 'com.android.support.test:runner:' + $testRunnerVersion
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:' + $espressoCoreVersion
+    androidTestImplementation 'androidx.test:rules:' + $testRulesVersion
+    androidTestImplementation 'androidx.test:runner:' + $testRunnerVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-core:' + $espressoCoreVersion
 }

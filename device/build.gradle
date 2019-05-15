@@ -26,7 +26,7 @@ android {
         versionCode 1
         versionName '1.0'
 
-        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     buildTypes {
@@ -51,15 +51,15 @@ dependencies {
 
     implementation project(':domain')
 
-    implementation 'com.android.support:appcompat-v7:' + $supportLibVersion
+    implementation 'androidx.appcompat:appcompat:1.0.2'
 
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:' + $kotlin_version
 
     implementation 'com.jakewharton.threetenabp:threetenabp:' + $threeTenVersion
 
     testImplementation 'junit:junit:' + $jUnitVersion
-    testImplementation 'com.android.support.test:rules:1.0.2'
+    testImplementation 'androidx.test:rules:1.1.1'
 
-    androidTestImplementation 'com.android.support.test:runner:' + $testRunnerVersion
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:' + $espressoCoreVersion
+    androidTestImplementation 'androidx.test:runner:' + $testRunnerVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-core:' + $espressoCoreVersion
 }
